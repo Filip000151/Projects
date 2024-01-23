@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, yellow, lime);
+}
+.container{
+    background: linear-gradient(to right, yellow, lime);
+}
+.gornji_deo{
+    background: linear-gradient(to left top, yellow, aquamarine);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+#centar{
+    background: linear-gradient(to bottom, darkblue, cyan);
+}
+.donji_deo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+}
+table tr td,
+table tr th{
+    padding: 0.5em;
+    text-align: center;
+    font-weight: bold;
+}
+table tr th{
+    background-color: lightblue;
+    color: darkblue;
+}
+table tr td{
+    background-color: lightgray;
+    color: darkmagenta;
+}
+table{
+    border-radius: 3em;
+}
+.dugme{
+    transition-duration: 0.4s;
+    background-color: turquoise;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.dugme:hover{
+    background-color: #04AA6D;
+    color: white;
+}
+#centriranje_dugmeta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#greska_id,
+#greska_ime_prezime,
+#greska_godina_rodjenja,
+#greska_email,
+#greska_id_update,
+#greska_ime_prezime_update,
+#greska_godina_rodjenja_update,
+#greska_email_update{
+    color: red;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.greska{
+    border: solid red 3px;
+}
+
+.tajmer{
+    border: solid black 3px;
+    background-color: red;
+    height: 10vh; 
+}
+.centar{
+    padding: 1em;
+}
+.zadatak{
+    font-weight: bold;
+    font-size: 3em;
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color:darkblue;
+}
+
+.zadatak_resenje{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 0 1em;
+}
+#poruka{
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+    color: orange;
+}

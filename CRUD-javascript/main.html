@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud aplikacija</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div id="div_za_tabelu" class="gornji_deo">
+            
+        </div>
+        <div id="poruka">
+                
+        </div>
+        <div id="centar">
+            <div id="tajmer">
+
+            </div>
+            <div id="zadatak">
+
+            </div>
+            <div class="zadatak_resenje" id="zadatak_resenje">
+                Odgovor:
+                <input type="number" id="resenje">
+                <button onclick="proveri_odgovor()" id="provera">Posalji odgovor</button>
+            </div>
+        </div>
+        <div class="donji_deo">
+            <div class="levo">
+                <h2>Dodaj clana</h2>
+                <form>
+                    <p>
+                        <label>ID</label>
+                        <input type="number" name="id" id="id">
+                        <span id="greska_id"></span>
+                    </p>
+                    <p>
+                        <label>Ime i prezime</label>
+                        <input type="text" name="ime_prezime" id="ime_prezime">
+                        <span id="greska_ime_prezime"></span>
+                    </p>
+                    <p>
+                        <label>Godina rodjenja</label>
+                        <input type="number" name="godina_rodjenja" id="godina_rodjenja">
+                        <span id="greska_godina_rodjenja"></span>
+                    </p>
+                    <p>
+                        <label>Email</label>
+                        <input type="text" name="email" id="email">
+                        <span id="greska_email"></span>
+                    </p>
+                    <p>
+                        <label>Vrsta clana:</label>
+                        <input type="radio" name="vrsta_clana" id="vrsta_regularni" value="regularni" checked> Regularni
+                        <input type="radio" name="vrsta_clana" id="vrsta_povlasceni" value="povlasceni">Povlasceni
+                    </p>
+                    <p id="centriranje_dugmeta">
+                        <button type="button" class="dugme" id="dodaj">
+                            DODAJ NOVOG CLANA
+                        </button>
+                    </p>
+                    
+                </form>
+            </div>
+            <div id="desno">
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
